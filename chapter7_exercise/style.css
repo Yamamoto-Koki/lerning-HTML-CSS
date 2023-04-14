@@ -1,0 +1,51 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;}
+
+a {
+  text-decoration: none;
+}
+
+.head-visual {
+  width: 100%; /* 横幅いっぱい */
+  height: 400px; /* 高さ300px */
+  background-image: url(img/mv.jpg);
+  background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: bottom;
+}
+
+.headline{/*headerタグ内のheadingクラスにのみ反映される*/
+  padding:20px;
+  fontsize:20px;
+}
+
+main {
+  width: 840px; /* 横幅800px */
+  margin: 50px auto ; /* 要素の中央揃え */
+}
+
+.main-box-1{
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom:30px;
+}
+
+.main-box-2{
+  padding: 30px 0;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom:30px;
+}
+
+.main-box-3{
+  padding: 30px 0;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom:30px;
+}
+
+.main-box-4{
+  border-bottom: 1px solid #d1d1d1;
+  padding:30px 0;
+}
